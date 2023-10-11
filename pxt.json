@@ -9,13 +9,8 @@
         "main.blocks",
         "main.ts",
         "README.md",
-        "assets.json",
-        "tilemap.g.jres",
-        "tilemap.g.ts",
         "stringToAsset.ts",
-        "images.g.jres",
-        "images.g.ts",
-        "main.py"
+        "pxt.json"
     ],
     "testFiles": [
         "test.ts"
