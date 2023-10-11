@@ -7,7 +7,7 @@ namespace images{
     //% block="get image from $asset_name"
     //% group="Assets from Strings"
     //% weight=1
-    export function getImageFromString(asset_name: string): Image{
+    export function getImage(asset_name: string): Image{
         return helpers._getFactoryInstance("image", asset_name)
     }
 
@@ -18,7 +18,7 @@ namespace images{
     //% block="get tile from $asset_name"
     //% group="Assets from Strings"
     //% weight=1
-    export function getTileFromString(asset_name: string): Image {
+    export function getTile(asset_name: string): Image {
         return helpers._getFactoryInstance("tile", asset_name)
     }
 
@@ -29,7 +29,7 @@ namespace images{
     //% block="get tilemap from $asset_name"
     //% group="Assets from Strings"
     //% weight=1
-    export function getTilemapFromString(asset_name: string): tiles.TileMapData {
+    export function getTilemap(asset_name: string): tiles.TileMapData {
         return helpers._getFactoryInstance("tilemap", asset_name)
     }
 
@@ -40,7 +40,7 @@ namespace images{
     //% block="get animation from $asset_name"
     //% group="Assets from Strings"
     //% weight=1
-    export function getAnimationFromString(asset_name: string): Image[] {
+    export function getAnimation(asset_name: string): Image[] {
         return helpers._getFactoryInstance("animation", asset_name)
     }
 
